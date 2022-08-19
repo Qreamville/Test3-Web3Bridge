@@ -1,0 +1,24 @@
+{
+  "description": "This NFT proves i have deploy the nft on goerli testnet",
+  "external_url": "https://twitter.com/Balqees_Oyeleye",
+  "image": "https://ipfs.filebase.io/ipfs/QmULTC6hDgrbftCKdj1k2ZFsc5hPS7tqMWSsZGyNbr9J29",
+  "name": "QreamNFT",
+  "attributes": [
+    {
+      "trait_type": "Gender",
+      "value": "Female"
+    },
+    {
+      "trait_type": "Cause",
+      "value": "Web3bridge Test 3"
+    },
+    {
+      "trait_type": "Token Standard",
+      "value": "ERC721"
+    },
+    {
+      "trait_type": "Date",
+      "value": "19th August 2022"
+    }
+  ]
+}
