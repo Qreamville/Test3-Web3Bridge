@@ -5,10 +5,10 @@ require("dotenv").config();
 module.exports = {
   defaultNetwork: "hardhat",
   networks: {
-    goerli: {
-      url: process.env.GOERLI_RPC_URL || "",
+    rinkeby: {
+      url: process.env.RINKEBY_RPC_URL || "",
       accounts: [process.env.PRIVATE_KEY || ""],
-      chainId: 5,
+      chainId: 4,
     },
   },
   solidity: "0.8.8",
