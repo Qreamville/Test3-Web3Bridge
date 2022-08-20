@@ -3,11 +3,11 @@ const { ethers } = require("hardhat");
 
 // async main
 async function main() {
-  const QreamNFT = await ethers.getContractFactory("QreamNFT");
+  const Qream = await ethers.getContractFactory("Qream");
   console.log("Deploying contract.....");
-  const qreamNFT = await QreamNFT.deploy();
-  await todoList.deployed();
-  console.log(`Deployed the contract to: ${await qreamNFT.address} address`);
+  const qream = await Qream.deploy();
+  await qream.deployed();
+  console.log(`Deployed the contract to: ${await qream.address} address`);
 }
 
 // main
@@ -17,5 +17,3 @@ main()
     console.log(error);
     process.exit(1);
   });
-
-// 0x665ee9efd30333246b941f290d8723eb4952f33cdb6e85c7ff9a753fd3c3d578
